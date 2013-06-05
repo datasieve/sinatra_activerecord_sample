@@ -8,7 +8,7 @@ gem "multi_json"
 gem 'thin'
 gem "pg"
 gem "activerecord", "~> 4.0.0.rc1"
-gem 'sinatra-activerecord'
+gem 'sinatra-activerecord', :path => "#{Dir.pwd}/vendor"
 gem 'awesome_print'
 gem 'tux'
 

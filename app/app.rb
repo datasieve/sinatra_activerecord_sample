@@ -17,11 +17,8 @@ class MyApp < SinatraRecord
     :encoding => 'utf8'
   )
 
-  class Note < ActiveRecord::Base
-  end
-
   get '/' do
-    { :foo => :bar }.to_json
+    { :foo => Foozer.first.user }.to_json
   end
 
 end

@@ -1,2 +1,4 @@
 .*.sw*
 Gemfile.lock
+tmp/*
+db/*.sqlite3
